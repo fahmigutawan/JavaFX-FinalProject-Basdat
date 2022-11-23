@@ -1,5 +1,6 @@
 package com.example.javafxfinalprojectbasdat;
 
+import com.example.javafxfinalprojectbasdat.repository.Repository;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
@@ -9,6 +10,6 @@ public class HelloController {
 
     @FXML
     protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+        welcomeText.setText(Repository.getAllInstructor());
     }
 }

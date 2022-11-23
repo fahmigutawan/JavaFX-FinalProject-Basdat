@@ -2,8 +2,10 @@ package com.example.javafxfinalprojectbasdat.util;
 
 public class DbUrl {
     // Fahmi
-    static String dbUrl = "jdb:sqlserver://DESKTOP-28579ON;databaseName:University";
-
+    public static String dbUrl = "jdbc:sqlserver://DESKTOP-28579ON;" +
+            "databaseName=University;" +
+            "encrypt=true;trustServerCertificate=true;" +
+            "integratedSecurity=true;";
 //    // Nauval
 //    static String dbUrl = "jdb:sqlserver://DESKTOP-28579ON;databaseName:University";
 //
