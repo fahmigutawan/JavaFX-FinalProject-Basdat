@@ -1,5 +1,6 @@
 package com.example.javafxfinalprojectbasdat;
 
+import com.example.javafxfinalprojectbasdat.repository.Repository;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
